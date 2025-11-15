@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "Explain the difference between process and thread.", "answer": "A process is an independent program in execution, while a thread is a lightweight process that shares resources with other threads in the same process."},
+  {"id": 2, "question": "What is virtual memory?", "answer": "Virtual memory is a memory management technique that gives an application the impression it has contiguous working memory."},
+  {"id": 3, "question": "Describe the role of the kernel in an OS.", "answer": "The kernel is the core part of the OS that manages system resources and communication between hardware and software."},
+  {"id": 4, "question": "What is deadlock?", "answer": "Deadlock is a situation where two or more processes are unable to proceed because each is waiting for the other to release resources."},
+  {"id": 5, "question": "Explain paging and segmentation.", "answer": "Paging and segmentation are memory management schemes that divide memory into sections for efficient allocation."},
+  {"id": 6, "question": "What is a system call?", "answer": "A system call is a request to the OS to perform a privileged operation."},
+  {"id": 7, "question": "What is context switching?", "answer": "Context switching is the process of storing and restoring the state of a CPU so that multiple processes can share a single CPU resource."},
+  {"id": 8, "question": "What is a scheduler?", "answer": "A scheduler is a component of the OS that decides which process runs at a given time."},
+  {"id": 9, "question": "Explain file permissions in OS.", "answer": "File permissions determine who can read, write, or execute a file."},
+  {"id": 10, "question": "What is inter-process communication (IPC)?", "answer": "IPC is a mechanism that allows processes to communicate and synchronize their actions."}
+]

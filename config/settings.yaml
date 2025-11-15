@@ -1,0 +1,16 @@
+llm:
+  model: "deepseek-r1:latest"
+  temperature_eval: 0.0    # deterministic for evaluation
+  temperature_opt: 1.0     # creative for optimization
+  temperature_analyst: 0.7
+
+skill_tree:
+  os_domains:
+    - Processes_and_Threads
+    - Memory_Management
+    - File_Systems
+    - Concurrency
+    - Security
+
+ciddp:
+  max_score: 5

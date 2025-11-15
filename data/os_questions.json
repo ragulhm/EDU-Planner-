@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "Processes_and_Threads",
+    "knowledge": "A process is an instance of a program in execution. Threads share memory within a process.",
+    "example": "Explain why creating threads is faster than creating processes in Linux.",
+    "difficulty": 2
+  },
+  {
+    "topic": "Memory_Management",
+    "knowledge": "Virtual memory uses paging to map virtual addresses to physical frames.",
+    "example": "If a system uses 4KB pages and a virtual address is 0x12345678, what is the page number?",
+    "difficulty": 3
+  }
+]

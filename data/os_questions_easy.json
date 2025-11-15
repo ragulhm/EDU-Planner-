@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "topic": "Memory Management",
+    "question": "What is internal fragmentation? (Set2-Q1)",
+    "options": [
+      "Wasted memory inside an allocated block",
+      "Wasted memory between blocks",
+      "Exceeding memory bounds",
+      "Memory leak"
+    ],
+    "answer": "Wasted memory inside an allocated block",
+    "explanation": "If allocated block > needed size, the unused part inside is internal fragmentation."
+  },
+  {
+    "id": 2,
+    "topic": "Memory Management",
+    "question": "What is internal fragmentation? (Set2-Q2)",
+    "options": [
+      "Wasted memory inside an allocated block",
+      "Wasted memory between blocks",
+      "Exceeding memory bounds",
+      "Memory leak"
+    ],
+    "answer": "Wasted memory inside an allocated block",
+    "explanation": "If allocated block > needed size, the unused part inside is internal fragmentation."
+  },
+  {
+    "id": 3,
+    "topic": "Process Synchronization",
+    "question": "Which of the following is used to solve mutual exclusion? (Set2-Q3)",
+    "options": [
+      "Semaphore",
+      "Paging",
+      "Segmentation",
+      "Context Switch"
+    ],
+    "answer": "Semaphore",
+    "explanation": "Semaphores (including binary semaphores / mutex) can enforce mutual exclusion."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Set2-Q4)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction",
+    "question": "What is the primary function of an operating system? (Set2-Q5)",
+    "options": [
+      "To compile programs",
+      "To manage hardware and software resources",
+      "To provide internet services",
+      "To encrypt data"
+    ],
+    "answer": "To manage hardware and software resources",
+    "explanation": "The OS acts as a bridge between applications and hardware, managing resource allocation."
+  },
+  {
+    "id": 6,
+    "topic": "File Systems",
+    "question": "What is an inode in UNIX? (Set2-Q6)",
+    "options": [
+      "Index node storing file metadata",
+      "Content of file",
+      "Root directory",
+      "File extension table"
+    ],
+    "answer": "Index node storing file metadata",
+    "explanation": "Inode stores metadata like permissions, timestamps, block pointers, etc."
+  },
+  {
+    "id": 7,
+    "topic": "Processes & Threads",
+    "question": "Which of the following is not a state in the 5-state process model? (Set2-Q7)",
+    "options": [
+      "New",
+      "Ready",
+      "Executing",
+      "Waiting",
+      "Suspended"
+    ],
+    "answer": "Suspended",
+    "explanation": "The classical model has New, Ready, Running (Executing), Waiting, Terminated."
+  },
+  {
+    "id": 8,
+    "topic": "Process Scheduling",
+    "question": "Which scheduling algorithm can lead to starvation? (Set2-Q8)",
+    "options": [
+      "First Come First Serve",
+      "Round Robin",
+      "Shortest Job First",
+      "Priority Scheduling"
+    ],
+    "answer": "Priority Scheduling",
+    "explanation": "Priority Scheduling can cause starvation for low-priority processes."
+  },
+  {
+    "id": 9,
+    "topic": "Device Management",
+    "question": "What is the role of a device driver? (Set2-Q9)",
+    "options": [
+      "Controls hardware devices",
+      "Manages memory",
+      "Schedules processes",
+      "Handles file systems"
+    ],
+    "answer": "Controls hardware devices",
+    "explanation": "Device drivers are software that allow the OS to communicate with hardware devices."
+  },
+  {
+    "id": 10,
+    "topic": "Security & Protection",
+    "question": "Which of the following is a security feature in OS? (Set2-Q10)",
+    "options": [
+      "Access control",
+      "Paging",
+      "Segmentation",
+      "Context switching"
+    ],
+    "answer": "Access control",
+    "explanation": "Access control restricts unauthorized access to system resources."
+  }
+]

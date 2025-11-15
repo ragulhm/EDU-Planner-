@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "Describe the steps involved in handling a page fault.", "answer": "The OS checks if the page is in memory, locates it on disk if not, loads it into memory, updates the page table, and resumes the process."},
+  {"id": 2, "question": "Explain the Banker's algorithm for deadlock avoidance.", "answer": "The Banker's algorithm checks resource allocation requests to ensure the system remains in a safe state and avoids deadlock."},
+  {"id": 3, "question": "How does the OS manage concurrency in multi-core systems?", "answer": "The OS uses synchronization mechanisms, scheduling algorithms, and resource sharing to manage concurrency."},
+  {"id": 4, "question": "Discuss the differences between monolithic and microkernel architectures.", "answer": "Monolithic kernels have all OS services in one large block, while microkernels run most services in user space for modularity and security."},
+  {"id": 5, "question": "Explain demand paging and its impact on performance.", "answer": "Demand paging loads pages into memory only when needed, reducing memory usage but potentially increasing page faults."},
+  {"id": 6, "question": "Describe the process of handling interrupts in an OS.", "answer": "The OS saves the current state, identifies the interrupt, executes the handler, and restores the state."},
+  {"id": 7, "question": "How does the OS ensure file system consistency after a crash?", "answer": "The OS uses journaling, checkpoints, and recovery procedures to maintain file system consistency."},
+  {"id": 8, "question": "What are race conditions and how can they be prevented?", "answer": "Race conditions occur when processes access shared resources concurrently; they can be prevented using locks, semaphores, and atomic operations."},
+  {"id": 9, "question": "Explain the concept of process synchronization.", "answer": "Process synchronization ensures that multiple processes can operate safely when sharing resources."},
+  {"id": 10, "question": "Describe the role of the OS in network management.", "answer": "The OS manages network connections, protocols, and data transfer between devices."}
+]
